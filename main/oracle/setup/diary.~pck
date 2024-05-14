@@ -1,0 +1,44 @@
+create or replace package Diary is
+
+  -- Author  : ISLOMBEK.BOBOYOROV
+  -- Created : 14.05.2024 17:34:19
+  -- Purpose : 
+
+  -- Public type declarations
+  type < Typename > is < Datatype >;
+
+  -- Public constant declarations
+  < Constantname > constant < Datatype > := < value >;
+
+  -- Public variable declarations
+  < Variablename > < Datatype >;
+
+  -- Public function and procedure declarations
+  Function < Functionname > (< Parameter > < Datatype >) return < Datatype >;
+
+end Diary;
+/
+create or replace package body Diary is
+
+  -- Private type declarations
+  type < Typename > is < Datatype >;
+
+  -- Private constant declarations
+  < Constantname > constant < Datatype > := < value >;
+
+  -- Private variable declarations
+  < Variablename > < Datatype >;
+
+  -- Function and procedure implementations
+  Function < Functionname > (< Parameter > < Datatype >) return < Datatype > is
+    < Localvariable > < Datatype >;
+  begin
+    < statement >;
+    return(< result >);
+  end;
+
+begin
+  -- Initialization
+  < statement >;
+end Diary;
+/
